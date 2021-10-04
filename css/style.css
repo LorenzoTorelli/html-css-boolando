@@ -24,6 +24,7 @@
     width: calc(100% /3 - 40px);
     float: left;
     margin: 15px;
+    margin-bottom: 30px;
     
 }
 
@@ -113,13 +114,13 @@
 /* ******** debug ******** */
 
 .container.debug {
-    /* background-color: blue; */
+    background-color: blue;
 
 }
 
 .debug .box {
-    /* background-color: red; */
-    /* height: 700px; */
+    background-color: red; 
+    height: 700px;
 }
 
 
