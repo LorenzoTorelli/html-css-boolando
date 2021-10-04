@@ -20,9 +20,45 @@
 /* ******** main ******** */
 
 .box {
-    width: calc(100% /3 - 20px);
+    width: calc(100% /3 - 40px);
     float: left;
-    margin: 10px;
+    margin: 15px;
+    
+}
+
+.img {
+    position: relative;
+    height: 90%;
+
+}
+.image {
+    object-fit: cover;
+    width: 100%;
+    
+
+}
+
+.mini-box {
+    position: absolute;
+    margin-left: 0;
+    margin-top: 500px;
+}
+.red {
+    background-color: red;
+    color: white;
+    display: inline-block;
+    padding: 5px;
+
+}
+.green {
+    background-color: green;
+    padding: 5px;
+    color: white;
+    display: inline-block;
+}
+
+.didascalia {
+    height: 10%;
 }
 
 /* ******** debug ******** */
@@ -34,7 +70,7 @@
 
 .debug .box {
     background-color: red;
-    height: 200px;
+    /* height: 700px; */
 }
 
 
