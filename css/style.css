@@ -11,14 +11,30 @@
     margin: auto;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 /* ******** main ******** */
 
-
+.box {
+    width: calc(100% /3 - 20px);
+    float: left;
+    margin: 10px;
+}
 
 /* ******** debug ******** */
 
-.debug main{
+.container.debug {
     background-color: blue;
+
 }
+
+.debug .box {
+    background-color: red;
+    height: 200px;
+}
+
 
