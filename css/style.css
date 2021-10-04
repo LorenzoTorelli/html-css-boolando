@@ -18,6 +18,43 @@
     clear: both;
 }
 
+/* ******** header ******** */
+
+.titolo {
+}
+.titolo h1 {
+    font-size: 70px;
+    font-weight: bolder;
+}
+.titolo h3 {
+    font-size: small;
+    color: green;
+    font-style: oblique;
+}
+nav li {
+    display: inline-block;
+    margin-right:  10px; 
+    text-transform: uppercase;
+    color: grey;
+    margin-top: 50px;
+
+}
+nav a {
+    text-decoration: none;
+
+}
+nav {
+    border-bottom: 2px solid green;
+    position: relative;
+
+}
+
+
+#profile{
+    position: absolute;
+    right: 0;
+}
+
 /* ******** main ******** */
 
 .box {
@@ -123,4 +160,12 @@
     height: 700px;
 }
 
+.debug  .titolo{
+    height: 100px;
+    background-color: royalblue;
+}
 
+.debug nav {
+    height: 100px;
+    background-color: red;
+}
